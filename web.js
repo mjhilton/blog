@@ -9,8 +9,8 @@ app.get('/', function(req, res) {
     });
 });
 
-app.get('/css/base.css', function(req, res) {
-    fs.readFile(__dirname + '/css/base.css', 'utf8', function(err, text){
+app.get('/css/home.css', function(req, res) {
+    fs.readFile(__dirname + '/css/home.css', 'utf8', function(err, text){
         res.send(text);
     });
 });
